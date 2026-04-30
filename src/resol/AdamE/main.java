@@ -5,15 +5,15 @@ public class main {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Selecione el Ejercicio que desea ejecutar:");
-        System.out.println("1. Ejercicio 1");
-        System.out.println("2. Ejercicio 2");
-        System.out.println("3. Ejercicio 3");
-        System.out.println("4. Ejercicio 4");
-        System.out.println("5. Ejercicio 5");
-        System.out.println("6. Ejercicio 6");
-        System.out.println("7. Ejercicio 7");
-        System.out.println("8. Ejercicio 8");
-        System.out.println("9. Ejercicio 9");
+        System.out.println(" 1. Ejercicio 1");
+        System.out.println(" 2. Ejercicio 2");
+        System.out.println(" 3. Ejercicio 3");
+        System.out.println(" 4. Ejercicio 4");
+        System.out.println(" 5. Ejercicio 5");
+        System.out.println(" 6. Ejercicio 6");
+        System.out.println(" 7. Ejercicio 7");
+        System.out.println(" 8. Ejercicio 8");
+        System.out.println(" 9. Ejercicio 9");
         System.out.println("10. Ejercicio 10");
         //int opcion = scanner.nextInt();
         int opcion= new Scanner(System.in).nextInt();
@@ -24,10 +24,10 @@ public class main {
             case 2:
                 Ejercicio2.ejecutar();
                 break;
-            /*case 3:
+            case 3:
                 Ejercicio3.ejecutar();
                 break;
-            case 4:
+            /*case 4:
                 Ejercicio4.ejecutar();
                 break;
             case 5:
