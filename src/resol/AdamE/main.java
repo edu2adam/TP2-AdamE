@@ -21,10 +21,10 @@ public class main {
             case 1:
                 Ejercicio1.ejecutar();
                 break;
-            /*case 2:
+            case 2:
                 Ejercicio2.ejecutar();
                 break;
-            case 3:
+            /*case 3:
                 Ejercicio3.ejecutar();
                 break;
             case 4:
