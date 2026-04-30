@@ -9,7 +9,7 @@ public class Ejercicio4 {
     public static void ejecutar() {
 
         Scanner scanner = new Scanner(System.in);
-        LocalDate fechaNacimiento = null;
+        LocalDate fechaNacimiento = null;//2 horas y no me di cuenta que coloque un * en vez de un - en la consola jajajajaja
         
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         

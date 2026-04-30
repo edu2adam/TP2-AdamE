@@ -33,10 +33,10 @@ public class main {
             case 5:
                 Ejercicio5.ejecutar();
                 break;
-            /*case 6:
+            case 6:
                 Ejercicio6.ejecutar();
                 break;
-            case 7:
+            /*case 7:
                 Ejercicio7.ejecutar();
                 break;
             case 8:

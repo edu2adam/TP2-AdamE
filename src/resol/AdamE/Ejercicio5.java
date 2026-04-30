@@ -29,23 +29,23 @@ public class Ejercicio5 {
         long segundos = tiempoRestante.getSeconds() % 60;
         
         // Contar clases (jueves) hasta el examen (sin incluir el día del examen)
-        long clases = contarJueves(ahora.toLocalDate(), examen.toLocalDate());
+        long clases = contarJueves(ahora.toLocalDate(), examen.toLocalDate());//Tengo que dejar de complicarme tanto la vida
         
         // Formatear fechas para mostrar
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
-        System.out.println("📅 Fecha/hora actual: " + ahora.format(formatter));
-        System.out.println("📖 Fecha del parcial: " + examen.format(formatter));
-        System.out.println("\n⏳ Tiempo restante:");
+        System.out.println("Fecha/hora actual: " + ahora.format(formatter));
+        System.out.println("Fecha del parcial: " + examen.format(formatter));
+        System.out.println("\n Tiempo restante:");
         System.out.printf("   %d días, %d horas, %d minutos, %d segundos\n", dias, horas, minutos, segundos);
-        System.out.println("\n📚 Clases (jueves) hasta el parcial: " + clases);
+        System.out.println("\n Clases (jueves) hasta el parcial: " + clases);
         
-        if (clases == 0) {
-            System.out.println("⚠️  No quedan clases antes del examen.");
+        if (clases == 0) {//No se para que me puse a personalizar el mensaje pero bueno
+            System.out.println("  No quedan clases antes del examen.");//Digo podria haber dicho "quedan " + clases + "clases antes del examen" y si era 0 pues tampoco estaba tan mal
         } else if (clases == 1) {
-            System.out.println("👉 Te queda 1 clase.");
+            System.out.println(" Te queda 1 clase.");
         } else {
-            System.out.println("👉 Te quedan " + clases + " clases.");
-        }
+            System.out.println(" Te quedan " + clases + " clases.");
+        }//No vuelvo a tomar más 3 cafe antes de una presentación
     }
     
     // Cuenta los jueves desde (incluido) start hasta (excluido) end
