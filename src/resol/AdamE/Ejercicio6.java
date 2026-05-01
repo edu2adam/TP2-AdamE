@@ -39,5 +39,6 @@ public class Ejercicio6 {
         System.out.println("Faltan " + diasFaltan + " días.");
         
         if (diasFaltan == 0) System.out.println("¡Feliz cumpleaños!");
+        
     }
 }

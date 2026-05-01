@@ -46,6 +46,7 @@ public class Ejercicio5 {
         } else {
             System.out.println(" Te quedan " + clases + " clases.");
         }//No vuelvo a tomar más 3 cafe antes de una presentación
+        
     }
     
     // Cuenta los jueves desde (incluido) start hasta (excluido) end

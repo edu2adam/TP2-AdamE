@@ -21,7 +21,7 @@ public class Ejercicio1 {
         } else {
             System.out.println("Son iguales.");
         }
-
+       
         //scanner.close();
     }
 }

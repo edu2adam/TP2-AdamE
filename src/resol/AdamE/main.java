@@ -36,7 +36,7 @@ public class main {
             case 6:
                 Ejercicio6.ejecutar();
                 break;
-            /*case 7:
+            case 7:
                 Ejercicio7.ejecutar();
                 break;
             case 8:
@@ -47,7 +47,7 @@ public class main {
                 break;
             case 10:
                 Ejercicio10.ejecutar();
-                break;*/
+                break;
         
             default:
                 System.out.println("Opcion no valida");

@@ -32,6 +32,7 @@ public class Ejercicio4 {
         
         System.out.println("\nNaciste el: " + fechaNacimiento.format(formatter));
         System.out.println("Día de la semana: " + nombreDia + " (" + diaSemana + ")");
+        
     }
       private static String traducirDia(java.time.DayOfWeek dia) {
         switch (dia) {

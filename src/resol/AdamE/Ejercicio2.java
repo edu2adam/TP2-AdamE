@@ -34,6 +34,6 @@ public class Ejercicio2 {
         
         // Extra: también podrías mostrar años, meses y días aproximados
         System.out.println("(Aprox: " + (diasVividos / 365) + " años)");
-
+        
     }
 }

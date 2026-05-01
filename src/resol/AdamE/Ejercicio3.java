@@ -23,6 +23,7 @@ public class Ejercicio3 {
         long horas = duracion.toHours();
         long minutosRestantes = minutos % 60;
         System.out.println("(" + horas + " horas y " + minutosRestantes + " minutos)");
+        
 
     }
 
